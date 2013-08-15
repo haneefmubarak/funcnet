@@ -35,8 +35,8 @@ int main (int argc, char *argv[]) {
 	fread(code, sizeof(unsigned char), st.st_size, infile);
 	fclose(infile);
 
-	printf("/n %s", code);
-	putchar(0xB);
+	//printf("/n %s", code);
+	//putchar(0xB);
 
 	// Cleanup
 	free(code);
